@@ -18,7 +18,7 @@ import java.security.MessageDigest;
  * @ClassName: FileDelete
  * @Description: TODO
  * @author xiongshengjie 382202220@qq.com
- * @date 2015Âπ?Êú?2Êó?‰∏äÂçà11:45:38
+ * @date 2015ÔøΩ?ÔøΩ?2ÔøΩ?‰∏äÂçà11:45:38
  *
  */
 public class FileDelete {
@@ -27,6 +27,7 @@ public class FileDelete {
 	private static String localPath = "";
 	private static String remoteHost = "" ;
 	private static String remotePath = "" ;
+	
 	public static void main(String[] args) throws FileNotFoundException
 	{
 		File file = new File("d:\\ts_data\\11757160.txt") ;
