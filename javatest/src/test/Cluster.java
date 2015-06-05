@@ -27,7 +27,7 @@ import redis.clients.jedis.JedisCluster;
  * @Description: TODO
  * @author xiongshengjie 382202220@qq.com
  * @date 2015年6月1日 下午5:24:25
- * @update 2015.06.05
+ * @update 2015.06.06
  *
  */
 public class Cluster {
