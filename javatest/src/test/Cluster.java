@@ -33,12 +33,6 @@ import redis.clients.jedis.JedisCluster;
 public class Cluster {
 	public static void main(String[] args) throws IOException {
 
-//		GenericObjectPoolConfig config = new GenericObjectPoolConfig();
-//		config.setMaxTotal(1000);
-//		config.setMinIdle(1000);
-//		config.setMaxIdle(1000);//对象最大空闲时间
-//		config.setMaxWaitMillis(1000 * 20);//获取对象时最大等待时间
-		
 		Set<HostAndPort> nodes = new HashSet<HostAndPort>();
 		String[] hostAndPorts =  {"132.121.88.81:6371","132.121.88.81:6372","132.121.88.81:6373","132.121.88.81:6374","132.121.88.81:6375","132.121.88.81:6376"};
 		for(String hostAndPort : hostAndPorts){
