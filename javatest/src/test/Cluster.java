@@ -49,8 +49,7 @@ public class Cluster {
 		cluster.set("age2", "30") ;
 		cluster.set("email2", "1test@126.com");
 		System.out.println(cluster.get("name1"));
-		System.out.println(cluster.get("age1"));
-		System.out.println(cluster.get("email1"));
+		
 	}
 
 }
