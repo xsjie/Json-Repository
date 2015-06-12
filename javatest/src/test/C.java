@@ -44,5 +44,10 @@ public class C extends B {
 		C c = new C() ;
 		return c ;
 	}
+	
+	public C(int i)
+	{
+		System.out.println("test") ;
+	}
 
 }
