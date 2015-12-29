@@ -19,6 +19,10 @@ public class A {
 	{
 		System.out.println("A be construct");
 	}
+
+    /**
+     * gittest
+     */
 	public void testA1()
 	{
 		System.out.println("test1");
