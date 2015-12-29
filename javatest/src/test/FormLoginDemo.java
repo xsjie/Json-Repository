@@ -14,6 +14,7 @@ import org.apache.commons.httpclient.*;
 import org.apache.commons.httpclient.cookie.*;
 import org.apache.commons.httpclient.methods.*;
 public class FormLoginDemo {
+
     static final String LOGON_SITE = "132.97.172.70";
     static final int    LOGON_PORT = 80;
    

@@ -14,4 +14,5 @@ public abstract class B extends A {
 
 	public abstract void testB1() ;
 	public void test2(){};
+
 }
